@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ffd433353757d449171a802bbffe1e, type: 3}
+  m_Name: "Upgrade_CasaDosPar\xE7a"
+  m_EditorClassIdentifier: 
+  upgradeName: "Casa dos Par\xE7a"
+  description:
+  - "Desbloqueia a Casa dos Par\xE7a."
+  - "Desbloqueia melhorias para a Casa dos Par\xE7as."
+  - "A casa dos Par\xE7as ta a mais TOP poss\xEDvel tey tey tey!"
+  pricePerLevel:
+  - 20
+  - 200
+  moneyToAppear: 0
+  currentLevel: 2
+  purchased: 1
+  upgradesInside:
+  - {fileID: 11400000, guid: af907bc12ecfb17478c90605668c0671, type: 2}

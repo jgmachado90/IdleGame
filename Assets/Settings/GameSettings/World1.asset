@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4c0c9358f614a49973d6136f84ab45, type: 3}
+  m_Name: World1
+  m_EditorClassIdentifier: 
+  sky: {fileID: 4377394204487726304, guid: 519c2da60a6e9844dbe8b4c6574b5899, type: 3}
+  garden: {fileID: 0}
+  street: {fileID: 6884853272114858587, guid: b92af43c36ee57e4ea669f4ea8bc9a39, type: 3}
+  mainCollectable: {fileID: 11400000, guid: dc0eb1d62e6dae94eb2214ae583cda65, type: 2}
+  houses: []
+  people: []
+  events:
+  - {fileID: 11400000, guid: e91155a289c6bac4685eda5f22d9b7af, type: 2}
+  - {fileID: 11400000, guid: 91c9d64b182ab5441a10ec407b596c02, type: 2}
+  mainCollectableSpawnRate: 0

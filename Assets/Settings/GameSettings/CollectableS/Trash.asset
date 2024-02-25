@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d09312a96dfe29b42aa6dfd27bb08898, type: 3}
+  m_Name: Trash
+  m_EditorClassIdentifier: 
+  collectableName: Latinha
+  value: 0.01
+  collectablePrefab: {fileID: 5236545630623790888, guid: aea5b2463f16ec741969d93391b87f18, type: 3}
+  collectFeedback: {fileID: 6884295595915239201, guid: 8e38238b3f3edf948b59c52bfddc934a, type: 3}
+  collectableQuantity: {x: 1, y: 5}
+  destroyOnCollect: 0
+  beforeCollect: {fileID: -793601168, guid: 14d181c53fd15fe4a8d21a622e14f3a3, type: 3}
+  afterCollect: {fileID: -722681271, guid: 14d181c53fd15fe4a8d21a622e14f3a3, type: 3}
+  minSpawnRate: 3
+  maxSpawnRate: 6
